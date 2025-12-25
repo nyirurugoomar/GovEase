@@ -1,0 +1,100 @@
+# ===============================
+# Java / Spring Boot
+# ===============================
+target/
+*.class
+*.log
+
+# ===============================
+# Maven
+# ===============================
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+!.mvn/wrapper/maven-wrapper.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.properties
+dependency-reduced-pom.xml
+
+# ===============================
+# Gradle (if ever used)
+# ===============================
+.gradle/
+build/
+
+# ===============================
+# IDEs
+# ===============================
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Eclipse / STS
+.project
+.classpath
+.settings/
+.springBeans
+
+# NetBeans
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# ===============================
+# OS Files
+# ===============================
+.DS_Store
+Thumbs.db
+
+# ===============================
+# Logs
+# ===============================
+logs/
+*.log
+
+# ===============================
+# Environment / Secrets
+# ===============================
+.env
+*.env
+application.properties
+application.yml
+application-*.yml
+application-*.properties
+
+# ===============================
+# Spring Boot DevTools
+# ===============================
+.restart
+.devtools/
+
+# ===============================
+# Test & Coverage
+# ===============================
+coverage/
+jacoco/
+*.exec
+
+# ===============================
+# Docker (optional)
+# ===============================
+docker-compose.override.yml
+
+# ===============================
+# Misc
+# ===============================
+*.pid
+*.seed
+*.swp
